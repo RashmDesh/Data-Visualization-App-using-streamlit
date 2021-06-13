@@ -6,7 +6,7 @@ from PIL import Image
 #configuration
 st.set_option('deprecation.showfileUploaderEncoding',False)
 html_temp=""" <div style="background-color:#722F37;padding:2px"> """
-img1 = Image.open('C:/Users/lenovo/Desktop/dataset/data-visualization-illustration.jpg')
+img1 = Image.open('data-visualization-illustration.jpg')
 img1 = img1.resize((500,245))
 st.image(img1,use_column_width=False)
 #title of app
